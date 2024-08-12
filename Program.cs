@@ -29,18 +29,5 @@ namespace EjercicioPolimorfismo
             Console.WriteLine("El perro corre rápidamente.");
         }
     }
-
-    // Clase derivada 2
-    class Gato : Animal
-    {
-        public override void HacerSonido()
-        {
-            Console.WriteLine("El gato maúlla: ¡Miau miau!");
-        }
-
-        public override void Moverse()
-        {
-            Console.WriteLine("El gato camina sigilosamente.");
-        }
-    }
+}
 
